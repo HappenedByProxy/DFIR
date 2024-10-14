@@ -1,0 +1,16 @@
+1. Open admin cmd:
+diskpart
+automount disable
+
+2. Connect the evidence disk
+
+3. Go back to the cmd:
+list volume
+
+4. Identify the disk (you can disconnect and compare the list)
+
+5. Select the disk and mount:
+select volume x
+attributes disk set readonly
+
+6. Profit.
