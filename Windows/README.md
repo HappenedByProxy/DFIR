@@ -52,3 +52,6 @@ HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion
 HKEY_LOCAL_MACHINE\System\ControlSet001\Enum\ACPI
 
 HKEY_LOCAL_MACHINE\System\ControlSet001\Enum\PCI
+
+## Take Ownership of Files
+icacls <folder> /reset /T
